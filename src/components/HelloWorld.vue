@@ -5,7 +5,7 @@
     </div>
     <div class="card-body">
       <div class="hello">
-        <h1>Welcome to Vue!</h1>
+        <h6>Welcome to Vue!</h6>
       </div>
     </div>
   </div>
