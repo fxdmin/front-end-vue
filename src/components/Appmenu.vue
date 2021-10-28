@@ -17,6 +17,9 @@
       <h6 class="text-white">Menu02 : Component</h6>
       <router-link to="/menu02/exam01expressions" class="nav-link text-warning">표현식 바인딩</router-link>
       <router-link to="/menu02/exam02directives" class="nav-link text-warning">디렉티브 바인딩</router-link>
+      <router-link to="/menu02/exam03attrbinding" class="nav-link text-warning">속성 바인딩</router-link>
+      <router-link to="/menu02/exam04formbinding" class="nav-link text-warning">양방향(form) 바인딩</router-link>
+      <router-link to="/menu02/exam05repeatbinding" class="nav-link text-warning">반복 바인딩</router-link>
     </li>
   </ul>
 </template>
