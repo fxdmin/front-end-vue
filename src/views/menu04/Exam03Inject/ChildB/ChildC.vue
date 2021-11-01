@@ -2,14 +2,11 @@
 <template>
   <div class="card">
     <div class="card-header">
-      ChildA
+      ChildC
     </div>
     <div class="card-body">
-      <p>prop1 : {{prop1}}</p>
-      <p>prop2 : {{prop2}}</p>
-      <p>productNo : {{productNo}}</p>
-      <p>productKind : {{productKind}}</p>
-      <p>productPrice : {{productPrice + 1}}</p>
+      <p>provideData1 : {{provideData1}}</p>
+      <p>provideData2 : {{provideData2}}</p>
     </div>
   </div>
 </template>
@@ -17,7 +14,7 @@
 <script>
 export default {
   //컴포넌트의 대표 이름(devtools에 나오는 이름)
-  name : "ChildA",
+  name : "ChildC",
   //추가하고 싶은 컴포넌트 등록
   components : {
   },
@@ -29,12 +26,10 @@ export default {
   //컴포넌트 메서드 정의
   methods : {
   },
-  props:[
-    "prop1",
-    "prop2",
-    "productNo",
-    "productKind",
-    "productPrice"
+  //부모로부터 전달된 데이터 삽입
+  inject : [
+    "provideData1",
+    "provideData2"
   ]
 }
 </script>
