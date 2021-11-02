@@ -30,6 +30,10 @@ export default {
   components : {
     AppHeader,
     AppMenu
+  },
+  //사용자가 refresh했을 때 토큰을 그대로 유지하기 위해
+  created(){
+    this.$store.dispatch("loadAuth");
   }
 }
 </script>
